@@ -1,0 +1,58 @@
+
+.newSubNav {
+	width: 85%;
+}
+
+.newSubNav ul {
+	padding: 0px;
+	margin-top: 30px;
+	margin-left: -10px;
+}
+
+.newSubNav ul:nth-child(2) {
+	border-top: 1px solid #E8E8E8;
+	padding-top: 30px;
+}
+
+
+.newSubNav li {
+	list-style: none;
+}
+
+.newSubNav a {
+	color: #8A959E;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 15px 20px;
+	display: block;
+}
+
+.newSubNav a.current, .newSubNav a.current:hover {
+	background-color: #EDF2F7;
+	font-weight: bold;
+	color: #2D709B;
+}
+
+.newSubNav a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.newSubNav .fa-chevron-right {
+	float: right;
+	margin-top: 2px;
+	color: #C6D8E4;
+}
+
+li#start a {
+	color: #75C320;
+}
+
+li#openstack-shared-services {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E8E8E8
+}
+
+li#start {
+	margin-top: 20px;
+}

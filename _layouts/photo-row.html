@@ -1,0 +1,14 @@
+---
+layout: openstackbootstrap
+---
+{{content}}
+
+<!-- Photo Row -->
+<div class="photo-row-wrapper">
+    <div class="photo-container">
+        {% loop_directory directory:images/photo-row iterator:image filter:*.jpg sort:random limit:10 %}
+           <img src="/images/photo-row/{{ image }}.jpg" />
+        {% endloop_directory %}
+    </div>
+</div>
+<!-- End Photo Row -->

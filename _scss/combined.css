@@ -1,0 +1,2102 @@
+/* line 2, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+body, html {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+/* line 7, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -300px;
+  right: 0; }
+
+/* line 21, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #2A4E68; }
+
+/* line 26, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+h1 {
+  color: #2A4E68;
+  font-size: 34px;
+  font-weight: 300;
+  margin: 60px 0;
+  text-align: center; }
+
+/* line 33, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+h2 {
+  color: #2A4E68;
+  font-weight: 300;
+  margin-bottom: 25px;
+  text-align: left; }
+
+/* line 39, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+h3 {
+  color: #2A4E68; }
+
+/* line 42, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+h5 {
+  color: #cf3427;
+  margin-bottom: 0; }
+
+/* line 47, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a, a:visited {
+  color: #29abe2; }
+
+/*Summit Landing*/
+/* line 52, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+body.summit-landing-body {
+  background: #040508; }
+
+/* line 55, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-landing-wrapper {
+  background: url('/images/landing-hero-bkgd.jpg') no-repeat left top;
+  min-height: 610px;
+  background-size: cover;
+  position: relative;
+  border-bottom: 1px solid #243440; }
+
+/* line 62, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-landing-logo {
+  margin: 145px 0 20px; }
+
+/* line 65, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-landing-wrapper p {
+  color: #29abe2;
+  font-weight: 300;
+  max-width: 305px; }
+
+/* line 70, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.countdown {
+  margin: 50px 5px 10px;
+  display: table; }
+
+/* line 74, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.countdown span {
+  display: table-cell;
+  height: 60px;
+  width: 35px;
+  vertical-align: middle;
+  text-align: center;
+  border: 2px solid #2a4d67;
+  margin: 0;
+  color: white;
+  font-size: 25px;
+  line-height: 1; }
+
+/* line 86, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.countdown span:first-child {
+  border-right: 0;
+  margin-right: -4px; }
+
+/* line 90, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.countdown span:last-child {
+  border-left: 0;
+  margin-left: -4px; }
+
+/* line 94, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.countdown-text {
+  color: #777;
+  font-size: 1.12em;
+  text-transform: uppercase;
+  margin: 10px 0 30px; }
+
+/* line 100, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.landing-action {
+  display: block;
+  margin-top: 20px; }
+
+/* line 105, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.register-btn-lrg, .register-btn-lrg {
+  border-radius: 2px;
+  background: #cf3427;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 400;
+  padding: 12px 30px; }
+
+/* line 115, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.register-btn-lrg i, .register-btn-lrg i {
+  margin-left: 20px; }
+
+/* line 119, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.register-btn-lrg:hover, .register-btn-lrg:hover {
+  background: #A51B1B;
+  color: white; }
+
+/* line 123, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-landing-bottom {
+  padding-bottom: 80px; }
+
+/* line 126, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-row {
+  margin-top: 50px;
+  text-align: center;
+  position: relative; }
+
+/* line 131, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-row h2 {
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 100%; }
+
+/* line 139, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-row h3 {
+  color: white;
+  font-size: 1.5em;
+  width: 100%; }
+
+/* line 144, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-row h4 {
+  color: #adadad;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 300;
+  width: 100%; }
+
+/* line 151, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-row .register-btn-lrg {
+  width: 270px;
+  height: 35px;
+  padding: 0;
+  line-height: 2em; }
+
+/* line 157, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.single-summit {
+  height: 225px;
+  padding-top: 53px;
+  background-size: cover;
+  overflow: hidden;
+  display: block;
+  position: relative; }
+
+/* line 165, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.single-summit:hover {
+  text-decoration: none; }
+
+/* line 168, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.past-summit::after {
+  background: url('/images/paris-bkgd.jpg') no-repeat center center;
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+/* line 179, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.current-summit {
+  padding-top: 10px; }
+
+/* line 182, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.current-summit::after {
+  background: url('/images/vancouver-bkgd.jpg') no-repeat center center;
+  content: "";
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+/* line 193, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.current-summit:hover:after {
+  opacity: 1; }
+
+/* line 196, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.future-summit::after {
+  background: url('/images/tokyo-bkgd.jpg') no-repeat center center;
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+/* line 208, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.past-summit:hover:after, a.future-summit:hover:after {
+  opacity: 0.5; }
+
+@media (max-width: 767px) {
+  /* line 212, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  a.single-summit::after {
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%; }
+
+  /* line 217, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .small-single-summit {
+    width: 50%;
+    margin-top: 30px;
+    float: left; }
+
+  /* line 222, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .small-single-summit a.single-summit {
+    width: 100%;
+    max-height: 150px;
+    padding-top: 20px; }
+
+  /* line 227, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .small-single-summit a.single-summit::after {
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%; }
+ }
+
+/* line 233, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.single-summit-date {
+  margin-top: 35px;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  color: #666;
+  position: relative; }
+
+/* line 240, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.single-summit-date.current {
+  color: #cf3427; }
+
+/* line 243, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.single-summit-date.future {
+  color: #29abe2; }
+
+/* line 246, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.date-circle {
+  position: absolute;
+  z-index: 1000;
+  top: 40px;
+  left: 50%;
+  margin-left: -10px;
+  margin-bottom: 50px;
+  background-color: #040508;
+  border: 2px solid #666;
+  height: 20px;
+  width: 20px;
+  border-radius: 75px;
+  -moz-border-radius: 75px;
+  -webkit-border-radius: 75px; }
+
+/* line 261, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.single-summit-date.current .date-circle {
+  border-color: #cf3427; }
+
+@media (max-width: 767px) {
+  /* line 265, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .single-summit-date.current {
+    margin-bottom: 30px; }
+
+  /* line 268, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .single-summit-date.current .date-circle {
+    display: none; }
+ }
+
+/* line 272, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.single-summit-date.future .date-circle {
+  border-color: #29abe2; }
+
+/* line 275, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-landing-bottom hr {
+  border-color: #243440;
+  z-index: 1;
+  margin-top: 28px; }
+
+/*End Summit Landing*/
+/*Summit Inner Layout*/
+/* line 284, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper {
+  background: url('/images/summit-vancouver-bkgd.jpg') no-repeat center bottom;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  overflow: hidden; }
+
+/* line 292, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper.condensed {
+  background: url('/images/summit-vancouver-bkgd.jpg') no-repeat center center; }
+
+/* line 295, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 4.5em;
+  margin: 0; }
+
+/* line 303, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper.condensed h1, .summit-hero-wrapper.condensed h2 {
+  display: none; }
+
+/* line 306, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 5px; }
+
+/* line 311, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper .landing-action {
+  text-align: center;
+  margin-top: 90px; }
+
+/* line 315, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper.condensed .landing-action {
+  float: right;
+  margin-top: 25px; }
+
+@media (max-width: 980px) {
+  /* line 320, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .summit-hero-wrapper.condensed .landing-action {
+    display: none; }
+ }
+
+/* line 324, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper .landing-action .register-btn-lrg {
+  width: 270px;
+  height: 38px;
+  padding: 0;
+  margin: 0; }
+
+/* line 330, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper.condensed .register-btn-lrg {
+  width: 130px; }
+
+/* line 333, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.inner-countdown-wrapper {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  text-align: center; }
+
+@media (max-width: 767px) {
+  /* line 340, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .inner-countdown-wrapper {
+    display: none; }
+ }
+
+/* line 344, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.inner-countdown-wrapper .countdown {
+  display: table;
+  margin: 0 auto; }
+
+/* line 348, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper.condensed .inner-countdown-wrapper {
+  top: 20px; }
+
+/* line 351, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper.condensed .inner-countdown-wrapper .countdown span {
+  display: table-cell;
+  height: 40px;
+  width: 30px;
+  border: 2px solid #eee;
+  color: white;
+  font-size: 20px;
+  line-height: 1; }
+
+/* line 360, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper.condensed .inner-countdown-wrapper .countdown span:first-child {
+  border-right: 0;
+  margin-right: -4px; }
+
+/* line 364, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper.condensed .inner-countdown-wrapper .countdown span:last-child {
+  border-left: 0;
+  margin-left: -4px; }
+
+/* line 368, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.inner-countdown-wrapper .countdown-text {
+  color: white;
+  font-size: 1em; }
+
+/* line 372, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper.condensed .inner-countdown-wrapper .countdown-text {
+  font-size: 0.8em;
+  color: #888;
+  margin: 10px 0 0; }
+
+/* line 377, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-logo {
+  margin: 80px auto 70px;
+  width: 150px; }
+
+/* line 381, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper.condensed .summit-hero-logo {
+  margin: 20px 0 0 100px; }
+
+@media (max-width: 980px) {
+  /* line 385, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .summit-hero-wrapper.condensed .summit-hero-logo {
+    margin: 20px 0 30px; }
+ }
+
+@media (max-width: 767px) {
+  /* line 390, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .summit-hero-wrapper.condensed .summit-hero-logo {
+    float: left; }
+ }
+
+/* line 394, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.hero-tab-wrapper {
+  margin: 130px auto 0; }
+
+/* line 397, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-hero-wrapper.condensed .hero-tab-wrapper {
+  margin: 30px auto 0; }
+
+@media (max-width: 980px) {
+  /* line 401, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .landing-action {
+    margin-bottom: 50px; }
+
+  /* line 404, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .hero-tab-wrapper {
+    display: none; }
+ }
+
+/*End Summit Inner Layout*/
+/*Hero Tabs and Navigation*/
+/* line 412, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.hero-tab-wrapper .nav-tabs > li {
+  float: none;
+  display: inline-block;
+  *display: inline;
+  /* ie7 fix */
+  zoom: 1;
+  /* hasLayout ie7 trigger */
+  margin: 0;
+  padding: 0 1%;
+  border-right: 1px solid rgba(113, 204, 254, 0.2); }
+
+/* line 424, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.hero-tab-wrapper .nav-tabs > li.current, .hero-tab-wrapper .nav-tabs > li.current:hover {
+  background: white; }
+
+/* line 428, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.hero-tab-wrapper .nav-tabs > li.current a, .hero-tab-wrapper .nav-tabs > li.current a:hover {
+  color: #2a4d67;
+  font-weight: 600; }
+
+/* line 433, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.hero-tab-wrapper .nav-tabs > li:hover, .hero-tab-wrapper .nav-tabs > li:focus {
+  background: rgba(37, 153, 219, 0.2); }
+  /* line 435, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .hero-tab-wrapper .nav-tabs > li:hover a, .hero-tab-wrapper .nav-tabs > li:focus a {
+    color: white; }
+
+/* line 437, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.hero-tab-wrapper .nav-tabs {
+  text-align: center;
+  border-bottom: 0;
+  background-color: rgba(34, 91, 160, 0.3); }
+
+/* line 442, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.hero-tab-wrapper .nav-tabs > li > a {
+  color: #71CCFE;
+  padding: 10px 15px; }
+
+/* line 447, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.hero-tab-wrapper .nav-tabs > li > a:hover, .hero-tab-wrapper .nav-tabs > li > a:focus {
+  background: none;
+  border-color: transparent; }
+
+/* line 451, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+i.collapse-nav {
+  color: #4279B0;
+  position: absolute;
+  right: 5%;
+  top: 30px;
+  display: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+@media (max-width: 980px) {
+  /* line 463, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  i.collapse-nav {
+    display: block; }
+ }
+
+/*End Hero Tabs and Navigation*/
+/*Responsive mobile menu classes*/
+/* line 471, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.main-body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+/* line 480, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.openNav .main-body {
+  right: 50%;
+  left: -50%; }
+
+/* line 484, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.sidebar-nav {
+  background: #222831;
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: -50%;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+/* line 497, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.openNav .sidebar-nav {
+  right: 0; }
+
+@media (min-width: 981px) {
+  /* line 501, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .openNav .sidebar-nav {
+    right: -50%; }
+
+  /* line 504, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .openNav .main-body {
+    right: 0;
+    left: 0; }
+ }
+
+@media (max-width: 767px) {
+  /* line 510, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .sidebar-nav {
+    width: 70%;
+    right: -70%; }
+
+  /* line 514, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .openNav .main-body {
+    right: 70%;
+    left: -70%; }
+ }
+
+/* line 519, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+ul.sidebar-menu {
+  margin-top: 30px;
+  padding: 0;
+  width: 100%; }
+
+/* line 524, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.sidebar-nav .nav-tabs {
+  border-bottom: none; }
+
+/* line 527, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.sidebar-nav .nav-tabs > li > a:hover {
+  border-color: transparent; }
+
+/* line 530, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.sidebar-nav ul.sidebar-menu li {
+  list-style-type: none;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  text-align: left; }
+
+/* line 543, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.sidebar-nav ul.sidebar-menu li a {
+  color: #72808F;
+  width: 100%;
+  display: block;
+  padding: 10px 10%; }
+
+/* line 553, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.sidebar-nav ul.sidebar-menu li a:hover, .sidebar-nav ul.sidebar-menu li a:focus, .sidebar-nav ul.sidebar-menu li.current a, .sidebar-nav ul.sidebar-menu li.current a:hover, .sidebar-nav ul.sidebar-menu li.current a:focus {
+  background: #171D23;
+  text-decoration: none; }
+
+/* line 557, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.sidebar-nav .register-btn-lrg {
+  margin-left: 10%;
+  width: 80%;
+  font-size: 1em;
+  padding: 0;
+  height: 40px; }
+
+/*End Responsive mobile menu classes*/
+/*Footer*/
+/* line 568, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+#push {
+  height: 300px; }
+
+/* line 571, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+footer {
+  background: #040508;
+  padding: 70px 0;
+  height: 300px;
+  margin-top: 60px; }
+
+@media (max-width: 767px) {
+  /*    #push {
+        display: none;
+    }*/
+  /* line 581, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  footer {
+    height: auto; }
+ }
+
+/* line 585, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.footer-links h3 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400; }
+
+/* line 590, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.footer-links ul {
+  margin-left: 0;
+  padding-start: 0;
+  padding: 0;
+  -webkit-padding-start: 0; }
+
+/* line 596, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.footer-links ul li {
+  list-style: none; }
+
+/* line 599, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.footer-links ul li a {
+  color: #aaa;
+  font-size: 12px;
+  font-weight: 400;
+  list-style: none;
+  margin-left: 0; }
+
+/* line 606, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.social-icons {
+  width: 40px;
+  min-height: 40px;
+  display: inline-block;
+  margin-right: 10px; }
+
+/* line 612, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.footer-twitter {
+  background: url('/images/footer-twitter.png') no-repeat; }
+
+/* line 615, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.footer-twitter:hover {
+  background: url('/images/footer-twitter-hover.png') no-repeat; }
+
+/* line 618, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.footer-facebook {
+  background: url('/images/footer-facebook.png') no-repeat; }
+
+/* line 621, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.footer-facebook:hover {
+  background: url('/images/footer-facebook-hover.png') no-repeat; }
+
+/* line 624, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.footer-linkedin {
+  background: url('/images/footer-linkedin.png') no-repeat; }
+
+/* line 627, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.footer-linkedin:hover {
+  background: url('/images/footer-linkedin-hover.png') no-repeat; }
+
+/* line 630, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.footer-youtube {
+  background: url('/images/footer-youtube.png') no-repeat; }
+
+/* line 633, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.footer-youtube:hover {
+  background: url('/images/footer-youtube-hover.png') no-repeat; }
+
+/* line 636, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.newsletter-form {
+  margin: 10px 0 30px;
+  width: 100%; }
+
+/* line 640, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.newsletter-form label {
+  color: #aaa;
+  font-size: 12px;
+  font-weight: 300;
+  display: block; }
+
+/* line 646, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.newsletter-input {
+  display: inline-block;
+  background: transparent;
+  border: 2px solid #888;
+  border-radius: 4px;
+  color: #888;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px 15px;
+  width: 70%; }
+
+@media (max-width: 767px) {
+  /* line 658, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .newsletter-input {
+    width: 70%; }
+ }
+
+/* line 662, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.newsletter-input::-webkit-input-placeholder {
+  color: #888;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+/* line 668, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.newsletter-input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #888;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+/* line 675, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.newsletter-input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #888;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+/* line 682, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.newsletter-input:-ms-input-placeholder {
+  color: #888;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+/* line 688, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.newsletter-input:focus {
+  outline: none;
+  border: 2px solid #666; }
+
+/* line 692, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.newsletter-btn {
+  margin-left: 1%;
+  display: inline-block;
+  background: transparent;
+  border: 2px solid #30739C;
+  border-radius: 4px;
+  color: #30739C;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  width: 27%; }
+
+@media (max-width: 767px) {
+  /* line 706, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .newsletter-btn {
+    width: 18%;
+    margin-left: 2%;
+    padding: 10px; }
+ }
+
+/* line 712, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.newsletter-btn:hover {
+  border: 2px solid #888;
+  color: #999; }
+
+/* line 716, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.fine-print {
+  margin-top: 20px;
+  color: #aaa;
+  font-size: 12px; }
+
+/* line 721, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.fine-print a {
+  color: #aaa;
+  text-decoration: underline; }
+
+/* line 725, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.fine-print a:hover {
+  color: #fff; }
+
+/* line 728, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.footer-bottom {
+  background: #222;
+  padding: 15px 0;
+  text-align: center;
+  width: 100%; }
+
+/* line 734, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.feedback-input {
+  display: inline-block;
+  background: #222;
+  border: 2px solid #444;
+  border-radius: 4px;
+  color: #777;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px 20px;
+  width: 310px; }
+
+@media (max-width: 767px) {
+  /* line 746, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .feedback-input {
+    width: 70%; }
+ }
+
+/* line 750, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.feedback-input::-webkit-input-placeholder {
+  color: #555;
+  font-size: 12px;
+  font-weight: 400; }
+
+/* line 755, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.feedback-input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #555;
+  font-size: 12px;
+  font-weight: 400; }
+
+/* line 761, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.feedback-input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #555;
+  font-size: 12px;
+  font-weight: 400; }
+
+/* line 767, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.feedback-input:-ms-input-placeholder {
+  color: #555;
+  font-size: 12px;
+  font-weight: 400; }
+
+/* line 772, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.feedback-input:focus {
+  outline: none;
+  border: 2px solid #666; }
+
+/* line 776, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.feedback-btn {
+  margin-left: 11px;
+  display: inline-block;
+  background: #222;
+  border: 2px solid #666;
+  border-radius: 4px;
+  color: #777;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px 30px; }
+
+@media (max-width: 767px) {
+  /* line 788, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .feedback-btn {
+    width: 18%;
+    margin-left: 2%;
+    padding: 10px; }
+ }
+
+/* line 794, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.feedback-btn:hover {
+  border: 2px solid #888;
+  color: #999; }
+
+/*End Footer*/
+/*General Inner Page Styles*/
+/* line 802, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.white {
+  width: 100%;
+  padding: 90px 0;
+  background: white; }
+
+/* line 807, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.light {
+  width: 100%;
+  padding: 90px 0;
+  background: #edf2f7; }
+
+/* line 812, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.blue {
+  width: 100%;
+  background: #30739C;
+  color: white; }
+
+/*End General Inner Page Styles*/
+/*About The Summit Page*/
+/* line 821, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.about-summit {
+  text-align: left; }
+
+/* line 825, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.about-summit .quote {
+  font-size: 34px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #EAEAEA;
+  font-weight: 300;
+  text-indent: -1rem;
+  line-height: 1.2em; }
+
+/* line 835, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.quote .attribution {
+  font-size: 50%;
+  text-indent: 0.5rem;
+  margin-top: 30px; }
+
+/* line 841, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.about-summit iframe {
+  margin-top: 30px; }
+
+@media (max-width: 980px) {
+  /* line 845, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .about-summit iframe {
+    max-width: 100% !important; }
+ }
+
+/* line 849, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.about-summit .register-btn-lrg {
+  margin-top: 5px;
+  width: 210px;
+  border-radius: 4px; }
+
+/* line 854, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.two-summits {
+  text-align: center; }
+
+/* line 857, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.two-summits h1 {
+  margin-top: 0; }
+
+/* line 860, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.two-summits p {
+  font-size: 1em;
+  color: #213c55; }
+
+/* line 864, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.two-summits hr {
+  border-color: #ced8e2;
+  width: 50%;
+  margin: 60px auto; }
+
+/* line 869, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.design-info-img {
+  margin-top: 20px; }
+
+/* line 872, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-types {
+  margin-top: 100px; }
+
+/* line 875, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.summit-types h3 {
+  font-weight: 300; }
+
+/* line 878, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.sub-h3 {
+  margin: -5px 0 40px;
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #a7b2bc; }
+
+/* line 885, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.blue-btn {
+  margin-top: 30px;
+  background: #30739C;
+  padding: 15px 0;
+  width: 250px;
+  border-radius: 4px;
+  color: white;
+  text-transform: uppercase; }
+
+/* line 894, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.blue-btn:hover {
+  background: #2A4E68;
+  color: white; }
+
+/* line 898, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.testimonial-row {
+  padding: 90px 0;
+  text-align: center; }
+
+/* line 902, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.testimonial-author-img {
+  margin: 0 0 30px;
+  border: 4px solid #edf2f7;
+  border-radius: 100px; }
+
+/* line 907, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.testimonial-row blockquote {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 1.4em;
+  border: none;
+  position: relative; }
+
+/* line 915, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.testimonial-row blockquote:before, .testimonial-row blockquote:after {
+  color: #edf2f7;
+  font-size: 5em;
+  position: absolute;
+  top: -30px; }
+
+/* line 921, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.testimonial-row blockquote:before {
+  content: open-quote;
+  left: -30px; }
+
+/* line 925, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.testimonial-row blockquote:after {
+  content: close-quote;
+  right: -30px; }
+
+@media (max-width: 767px) {
+  /* line 930, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .testimonial-row blockquote:before {
+    top: -50px;
+    left: 0px; }
+
+  /* line 934, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .testimonial-row blockquote:after {
+    right: 0px;
+    top: 20px; }
+ }
+
+/* line 939, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.testimonial-attribute {
+  font-family: Georgia, serif; }
+
+/* line 942, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.testimonial-attribute img {
+  margin: 5px 0; }
+
+/* line 945, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.schedule-row {
+  padding: 90px 0;
+  text-align: center; }
+
+/* line 949, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.schedule-row h1 {
+  color: white;
+  margin-top: 0; }
+
+/* line 953, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.outline-btn {
+  width: 220px;
+  padding: 10px 0;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 4px;
+  color: white;
+  text-transform: uppercase;
+  color: #213c55; }
+
+/* line 963, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.schedule-row a.outline-btn {
+  margin-top: 30px;
+  color: white; }
+
+/* line 967, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.growth {
+  background: url('/images/growth-bkgd.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  padding: 90px 0;
+  width: 100%; }
+
+/* line 974, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.growth h2 {
+  color: white; }
+
+/* line 977, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.growth p {
+  color: #666; }
+
+/* line 980, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.growth a {
+  color: white;
+  text-decoration: underline; }
+
+/* line 984, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.growth-text-top {
+  width: 40%;
+  float: left; }
+
+/* line 988, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.growth-chart {
+  float: left;
+  max-width: 100%;
+  margin-left: -20%; }
+
+/* line 993, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.growth-text-bottom {
+  width: 40%;
+  float: right;
+  margin-top: -9em; }
+
+@media (max-width: 1200px) {
+  /* line 999, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .growth-text-top {
+    width: 50%; }
+
+  /* line 1002, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .growth-chart {
+    margin-left: 0;
+    margin-top: -5em; }
+
+  /* line 1006, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .growth-text-bottom {
+    width: 50%;
+    margin-top: -1em; }
+ }
+
+@media (max-width: 767px) {
+  /* line 1012, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .growth-text-top {
+    width: 100%; }
+
+  /* line 1015, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .growth-chart {
+    margin-left: 0;
+    margin-top: 0; }
+
+  /* line 1019, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .growth-text-bottom {
+    width: 100%;
+    margin-top: 20px; }
+ }
+
+/* line 1024, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.networking-row {
+  text-align: center; }
+
+/*Photo Row*/
+/* line 1029, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.photo-row-wrapper {
+  width: 100%;
+  color: #eee;
+  max-height: 240px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  margin: -30px 0 -45px; }
+
+/* line 1037, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.photo-container {
+  width: 4000px;
+  max-height: 240px;
+  margin-left: -30px; }
+
+/* line 1042, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.photo-container img {
+  margin: 0 10px 0 0;
+  max-width: 22%;
+  max-height: 240px; }
+
+/*End Photo Row*/
+/*End About The Summit Page*/
+/* Presentation App */
+/* line 1053, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.presentation-app-header {
+  border-bottom: 1px solid #CCCCCC; }
+  /* line 1055, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .presentation-app-header h2 {
+    text-align: left;
+    margin: 20px 0px 5px 0px;
+    font-size: 170%; }
+  /* line 1060, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .presentation-app-header .status {
+    text-transform: uppercase;
+    padding-bottom: 10px; }
+
+/* line 1065, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.presentation-app-body {
+  background-color: #F6F7F9; }
+
+/* line 1068, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.presentation-app-login-panel {
+  background-color: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  border: 1px solid #CCCCCC; }
+
+/* End Presentation App */
+/*Info and News Page*/
+/* line 1079, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.info-promo {
+  margin: 60px 0;
+  padding: 43px 30px;
+  background: url('/images/info-promo-bkgd.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 143px;
+  color: white; }
+
+/* line 1088, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.info-promo a {
+  color: white; }
+
+/* line 1091, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.info-promo-left {
+  float: left;
+  height: 100%;
+  width: 50%; }
+
+/* line 1096, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.info-promo-right {
+  float: right;
+  height: 100%;
+  width: 50%;
+  margin-top: -10px;
+  font-size: 0.9em; }
+
+/* line 1103, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.promo-5 {
+  float: left;
+  font-size: 6em;
+  font-weight: 700;
+  padding-right: 10px;
+  text-align: center;
+  line-height: 0.6em; }
+
+/* line 1111, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.promo-top {
+  float: left;
+  width: 85%;
+  text-align: left;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase; }
+
+/* line 1120, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.promo-bottom {
+  float: left;
+  width: 85%;
+  text-align: left;
+  font-size: 2.4em;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  padding-top: 5px; }
+
+/* line 1130, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.right-promo-bottom {
+  padding-top: 12px; }
+
+/* line 1133, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.right-promo-bottom a {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+/* line 1138, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.right-promo-bottom a i {
+  margin-left: 10px; }
+
+@media (max-width: 1200px) {
+  /* line 1142, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .info-promo-left {
+    width: 60%; }
+
+  /* line 1145, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .info-promo-right {
+    width: 40%; }
+ }
+
+@media (max-width: 990px) {
+  /* line 1150, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .info-promo-left {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 15px; }
+
+  /* line 1155, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .info-promo-right {
+    width: 100%; }
+
+  /* line 1158, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .info-promo {
+    padding: 30px;
+    height: 200px; }
+
+  /* line 1162, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .promo-5 {
+    text-align: left; }
+ }
+
+@media (max-width: 767px) {
+  /* line 1167, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .promo-bottom {
+    font-size: 2em; }
+ }
+
+/* line 1171, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+h5.section-title {
+  color: #2A4E68;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-bottom: 1px solid #dae5ee;
+  padding-bottom: 20px;
+  margin-bottom: 30px; }
+
+/* line 1179, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+ul.help-me-menu {
+  padding: 0;
+  margin: 0; }
+
+/* line 1183, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+ul.help-me-menu li {
+  list-style: none; }
+
+/* line 1186, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+ul.help-me-menu li a {
+  color: #8a959e;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 600;
+  width: 100%;
+  display: block;
+  padding: 15px 30px;
+  background: white; }
+
+/* line 1196, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+ul.help-me-menu li a:hover {
+  background: #edf2f7;
+  color: #30739C;
+  text-decoration: none; }
+
+@media (min-width: 768px) and (max-width: 990px) {
+  /* line 1202, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  ul.help-me-menu li a {
+    padding: 15px 10px;
+    font-size: 0.8em; }
+ }
+
+/* line 1207, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+ul.help-me-menu li a i {
+  margin-right: 15px;
+  font-size: 1.5em; }
+
+/* line 1211, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.schedule-square {
+  background: #29abe2;
+  color: white;
+  padding: 30px;
+  margin-top: 30px; }
+
+/* line 1217, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.schedule-square h3 {
+  color: white;
+  margin: 0 0 20px;
+  font-weight: 400; }
+
+/* line 1222, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.schedule-square h3 i {
+  margin-right: 15px; }
+
+/* line 1225, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.schedule-square a.outline-btn {
+  color: white;
+  margin: 25px auto 10px;
+  display: block; }
+
+@media (max-width: 990px) {
+  /* line 1231, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .schedule-square a.outline-btn {
+    width: 100%;
+    font-size: 1em; }
+ }
+
+@media (max-width: 767px) {
+  /* line 1237, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .schedule-square a.outline-btn {
+    width: 60%;
+    font-size: 1em; }
+ }
+
+/* line 1242, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.about-city-row {
+  background: url('/images/vancouver-bkgd-orange.jpg') no-repeat left top;
+  min-height: 610px;
+  background-size: cover;
+  position: relative;
+  margin: 0 0 -60px;
+  text-align: center;
+  padding: 170px 0;
+  color: white;
+  position: relative; }
+
+/* line 1253, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.about-city-row h1 {
+  margin-top: 0; }
+
+/* line 1256, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.photo-credit {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 1.3em; }
+
+/* line 1264, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.about-city-row p {
+  font-weight: 400;
+  font-size: 1.3em;
+  margin-bottom: 30px; }
+
+/* line 1269, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.about-city-row h1 {
+  color: white;
+  font-size: 3em; }
+
+/* line 1273, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.orange-btn {
+  background: #ff5b08;
+  border-radius: 4px;
+  padding: 13px 40px;
+  color: white;
+  margin-top: 50px; }
+
+/* line 1280, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.orange-btn:hover {
+  color: white;
+  background: #CE390B; }
+
+/* line 1284, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.news-story {
+  background: #edf2f7;
+  padding: 3% 5% 5%;
+  display: block;
+  float: left;
+  color: #2A4E68;
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px; }
+
+/* line 1294, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.news-story p {
+  font-size: 0.9em;
+  color: #213c55; }
+
+/* line 1298, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.news-left {
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 70%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left; }
+
+/* line 1312, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.news-right {
+  width: 68%;
+  margin-bottom: -3%;
+  float: right; }
+
+/* line 1317, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.news-story.no-pic .news-left {
+  display: none; }
+
+/* line 1320, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+a.news-story.no-pic .news-right {
+  width: 100%; }
+
+/* line 1323, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.news-story .news-title {
+  font-size: 1.8em;
+  line-height: 1.2em;
+  font-weight: 300; }
+
+/* line 1328, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.news-byline {
+  font-size: 0.8em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #9eb5c3;
+  border-top: 1px solid #dae5ee;
+  padding-top: 10px;
+  margin-top: 20px; }
+
+/* line 1337, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.news-byline .posted {
+  float: left; }
+
+/* line 1340, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.news-byline .type {
+  float: right; }
+
+/* line 1343, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.news-byline .type i {
+  margin-right: 5px;
+  font-size: 1em; }
+
+/* line 1347, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.timeline-wrapper ul {
+  padding: 0;
+  margin: 0;
+  display: table; }
+
+/* line 1352, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.timeline-wrapper ul li {
+  list-style: none;
+  padding: 10px;
+  display: table-row; }
+
+/* line 1357, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.timeline-wrapper ul li strong {
+  padding: 0 10px 20px 0;
+  display: table-cell; }
+
+/* line 1361, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.timeline-wrapper ul li span {
+  padding: 0 0 20px 0;
+  display: table-cell; }
+
+/*End Info and News Page*/
+/*About Host City Page*/
+/* line 1369, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-intro {
+  text-align: center; }
+
+/* line 1372, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-intro blockquote {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 1.1em;
+  border: none;
+  position: relative;
+  text-align: center;
+  color: #213c55;
+  margin: 0 15%; }
+
+/* line 1383, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-intro blockquote:before, .city-intro blockquote:after {
+  color: #edf2f7;
+  font-size: 5em;
+  position: absolute;
+  top: -30px; }
+
+/* line 1389, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-intro blockquote:before {
+  content: open-quote;
+  left: -60px; }
+
+/* line 1393, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-intro blockquote:after {
+  content: close-quote;
+  right: -50px; }
+
+@media (max-width: 767px) {
+  /* line 1398, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .city-intro blockquote:before {
+    top: -50px;
+    left: 0px; }
+
+  /* line 1402, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  .city-intro blockquote:after {
+    right: 0px;
+    top: 20px; }
+ }
+
+/* line 1407, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-intro blockquote strong {
+  display: block;
+  margin: 0 -15% 40px;
+  font-size: 2em;
+  font-weight: normal; }
+
+/* line 1413, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-intro .testimonial-attribute {
+  text-align: center;
+  display: block;
+  margin-top: 50px; }
+
+/* line 1418, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-intro .testimonial-attribute p {
+  margin-top: 1px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 0.8em; }
+
+/* line 1423, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-nav {
+  padding: 0;
+  background: #29abe2;
+  border-bottom: 1px solid #54617D;
+  z-index: 1000; }
+
+/* line 1429, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+ul.city-nav-list {
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+
+/* line 1434, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+ul.city-nav-list li {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  margin: 0 5%; }
+
+@media (max-width: 767px) {
+  /* line 1441, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+  ul.city-nav-list li {
+    margin: 0 3%; }
+ }
+
+/* line 1445, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+ul.city-nav-list li a {
+  color: white;
+  padding: 25px 0;
+  display: inline-block;
+  opacity: 0.8; }
+
+/* line 1451, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+ul.city-nav-list li a:hover {
+  text-decoration: none;
+  opacity: 1; }
+
+/* line 1455, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+ul.city-nav-list li i {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 2.2em; }
+
+/* line 1460, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-nav.fixed {
+  position: fixed;
+  top: 0;
+  padding: 0;
+  background: #29abe2;
+  border-bottom-color: #54617D; }
+
+/* line 1467, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-nav.fixed ul.city-nav-list li a {
+  position: relative;
+  padding: 20px 0;
+  color: white;
+  opacity: 0.5; }
+
+/* line 1473, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-nav.fixed ul.city-nav-list li a:hover {
+  opacity: 1; }
+
+/* line 1476, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-nav.fixed ul.city-nav-list li a.active {
+  color: white;
+  opacity: 1; }
+
+/* line 1481, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-nav.fixed ul.city-nav-list li a.active:after, .city-nav.fixed ul.city-nav-list li a.active:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  opacity: 1; }
+
+/* line 1492, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-nav.fixed ul.city-nav-list li a.active:after {
+  border-color: rgba(237, 242, 247, 0);
+  border-top-color: #29abe2;
+  border-width: 15px;
+  margin-left: -15px; }
+
+/* line 1498, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-nav.fixed ul.city-nav-list li a.active:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-top-color: #54617D;
+  border-width: 16px;
+  margin-left: -16px; }
+
+/* line 1504, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.city-nav.fixed ul.city-nav-list li i {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 1em; }
+
+/* line 1509, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.venue-row {
+  padding: 140px 0;
+  text-align: center;
+  color: white;
+  background: url('/images/venue-bkgd.jpg') no-repeat left top;
+  background-size: cover;
+  position: relative; }
+
+/* line 1517, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.venue-row h1 {
+  color: white; }
+
+/* line 1520, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.venue-row p {
+  font-size: 1.8em; }
+
+/* line 1523, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.venue-row p strong {
+  font-weight: 600;
+  display: block; }
+
+/* line 1527, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.hotels-row {
+  text-align: center; }
+
+/* line 1530, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.hotels-row h5.section-title {
+  margin-top: 30px; }
+
+/* line 1533, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.hotel-block {
+  text-align: center;
+  margin: 40px 0 10px; }
+
+/* line 1537, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.hotel-block a {
+  display: inline-block;
+  margin: 10px 12px 0; }
+
+/* line 1541, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.hotel-block a i {
+  margin-right: 5px; }
+
+/* line 1544, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.venue-map {
+  height: 500px; }
+
+/* line 1547, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.other-hotel-options {
+  margin: 30px 0; }
+
+/* line 1550, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.other-hotel-options hr {
+  border-color: #d4e2ec;
+  margin-bottom: 60px; }
+
+/* line 1554, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.other-hotel-options p {
+  margin-bottom: 40px; }
+
+/* line 1557, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.locals-row {
+  padding: 90px 0;
+  text-align: center; }
+
+/* line 1561, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.locals-row h1 {
+  margin-bottom: 50px; }
+
+/* line 1564, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.locals-row .testimonial-author-img {
+  margin: 0 0 10px;
+  border-radius: 100px;
+  max-width: 80px; }
+
+/* line 1569, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.locals-row blockquote {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 1em;
+  border: none;
+  position: relative; }
+
+/* line 1576, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.local-block {
+  margin-top: 60px; }
+
+/* line 1579, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.testimonial-attribute {
+  font-family: Georgia, serif; }
+
+/* line 1582, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.testimonial-attribute img {
+  margin: 5px 0; }
+
+/* line 1585, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+#getting-around {
+  text-align: center;
+  padding: 90px 0 110px; }
+
+/* line 1589, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+#getting-around h1 {
+  color: white; }
+
+/* line 1592, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.getting-options {
+  text-align: center;
+  margin-top: 80px; }
+
+/* line 1596, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.getting-options a {
+  color: white; }
+
+/* line 1599, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.getting-options a:hover {
+  text-decoration: none;
+  color: #2A4E68; }
+
+/* line 1603, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.getting-options a span {
+  font-size: 0.8em;
+  font-style: italic;
+  display: block; }
+
+/* line 1608, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.getting-options a i {
+  display: block;
+  font-size: 2em;
+  margin-bottom: 15px; }
+
+/* line 1613, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+i.zipcar-icon {
+  font-weight: 700; }
+
+/* line 1616, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.affix-top {
+  top: 0; }
+
+/*End About Host City Page*/
+/*FAQ Page*/
+/* line 1624, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.faq-wrapper h5.section-title, #results h5 {
+  margin-top: 60px;
+  text-transform: uppercase;
+  color: #2A4E68;
+  font-weight: 600;
+  border-bottom: 1px solid #dae5ee;
+  padding-bottom: 20px;
+  margin-bottom: 30px; }
+
+/* line 1633, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+p.question {
+  font-weight: 700;
+  margin-bottom: 1px; }
+
+/* line 1637, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+p.answer {
+  margin-bottom: 20px; }
+
+/* line 1641, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+#filter-field {
+  width: 100%;
+  padding: 10px; }
+
+/*End FAQ Page*/
+/*Sponsor Page*/
+/* line 1648, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/styles */
+.sponsor-wrapper h4 {
+  margin-top: 30px; }
+
+/*End Sponsor Page*/
+/* Presentation App */
+/* line 3, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.presentation-app-header {
+  border-bottom: 1px solid #CCCCCC; }
+  /* line 6, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+  .presentation-app-header h2 {
+    text-align: left;
+    margin: 20px 0px 5px 0px;
+    font-size: 170%; }
+  /* line 12, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+  .presentation-app-header .status {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 20px; }
+
+/* line 20, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.presentation-app-body {
+  padding-top: 20px;
+  background-color: #F6F7F9; }
+
+/* line 25, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.presentation-app-login-panel {
+  background-color: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  border: 1px solid #CCCCCC; }
+
+/* line 33, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.presentation-main-panel {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #CCCCCC;
+  margin-bottom: 30px; }
+  /* line 39, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+  .presentation-main-panel h2 {
+    margin-top: 0px; }
+  /* line 43, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+  .presentation-main-panel h3 {
+    font-size: 100%;
+    text-transform: uppercase; }
+  /* line 48, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+  .presentation-main-panel form {
+    margin-top: 20px; }
+  /* line 52, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+  .presentation-main-panel .btn {
+    color: white !important; }
+
+/* line 59, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.form-actions .btn {
+  color: white; }
+
+/* line 65, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+#BootstrapMemberLoginForm_LoginForm .btn {
+  width: 100%; }
+
+/* line 70, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.presentation-app-login-panel {
+  background-color: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  border: 1px solid #CCCCCC; }
+
+/* line 78, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.user-sidebar {
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 0px;
+  border: 1px solid #CCCCCC;
+  margin-bottom: 20px; }
+
+/* line 86, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.user-menu {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+
+/* line 92, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.user-menu li a {
+  display: block;
+  margin: 0px -20px;
+  padding: 10px 20px; }
+  /* line 97, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+  .user-menu li a:hover, .user-menu li a:active {
+    text-decoration: none; }
+  /* line 101, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+  .user-menu li a.active {
+    background-color: #EDF2F5;
+    border-left: 3px solid #259ADA; }
+
+/* line 110, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.user-menu .fa {
+  float: right;
+  padding-top: 1.5%; }
+
+/* line 115, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.user-photo {
+  margin: -20px;
+  margin-bottom: 20px; }
+  /* line 120, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+  .user-photo img {
+    max-width: 100%; }
+
+/* line 125, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.main-panel-section {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 0px 20px;
+  border-bottom: 1px solid #CCCCCC; }
+
+/* line 132, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.add-presentation-button {
+  width: 100%; }
+
+/* line 136, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+td.item-name {
+  padding-left: 20px !important;
+  width: 70%; }
+  /* line 138, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+  td.item-name .fa {
+    padding-right: 7px;
+    margin-left: -20px; }
+
+/* line 145, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+td.action {
+  text-align: right; }
+
+/* line 149, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.presentation-title, .presentation-status {
+  float: left; }
+
+/* line 153, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.presentation-title {
+  width: 80%; }
+
+/* line 157, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.presentation-status {
+  width: 20%;
+  color: red; }
+
+/* line 162, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.presentation-steps {
+  max-width: 500px;
+  margin: 20px auto; }
+
+/* line 167, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.presentation-steps .step {
+  width: 50%;
+  float: left;
+  border: 1px solid #CCCCCC;
+  padding: 7px 10px;
+  margin-left: -1px;
+  text-align: center; }
+  /* line 175, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+  .presentation-steps .step:hover, .presentation-steps .step:active, .presentation-steps .step:visited {
+    color: black;
+    text-decoration: none; }
+
+/* line 182, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.presentation-steps .active {
+  font-weight: bold;
+  background-color: #F6F7F9;
+  border-top: 1px solid #A8A8A8;
+  border-left: 1px solid #A8A8A8; }
+
+/* line 189, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.presentation-app-body .form-actions {
+  background-color: #F4F5F8;
+  margin: -20px;
+  margin-top: 0px;
+  padding: 20px; }
+
+/* line 196, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.form-actions button {
+  background-color: #1763B4; }
+
+/* line 200, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+.user-img {
+  border: 4px solid #edf2f7;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin: 10px auto;
+  background-size: 100%; }
+
+/* line 213, /Users/toddmorey/Documents/webdev/websites/current-summit-microsite/_scss/presentation-app */
+h3.user-name {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=combined.css.map */
