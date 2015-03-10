@@ -1,0 +1,30 @@
+h1 {
+	text-align: left;
+}
+h5.section-title {
+    color: $darkblue;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-bottom: 1px solid #dae5ee;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.sidebar {
+	margin: 0;
+	background: $lightblue;
+	padding: 30px;
+	border-radius: 4px;
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			list-style: none;
+
+			a {
+				line-height: 2em;
+			}
+		}
+	}
+}
